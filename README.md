@@ -56,6 +56,7 @@ p-value = 8.26 × 10⁻¹³
  - Scipy.stats
    
 *Структура репозиторію*:
+
 ├── ab_test_results_aggregated_views_clicks_2.csv  
 
 ├── ab_test_analysis.ipynb                       
