@@ -25,7 +25,7 @@ EDA - перевірка розмірності, типів даних, проп
 - CTR_control ≈ 3.47%
 
 - CTR_test ≈ 3.85%
-- 
+  
 Sample Ratio Mismatch (SRM) check — перевірка коректності рандомізації груп (критерій хі-квадрат Пірсона). 
 SRM не виявлено (χ² = 0, p = 1) → розподіл користувачів по групах відповідає очікуваному 50/50.
 
@@ -56,6 +56,8 @@ p-value = 8.26 × 10⁻¹³
  - Scipy.stats
    
 *Структура репозиторію*:
-├── ab_test_results_aggregated_views_clicks_2.csv   # вхідні дані
-├── ab_test_analysis.ipynb                          # ноутбук з аналізом
+├── ab_test_results_aggregated_views_clicks_2.csv  
+
+├── ab_test_analysis.ipynb                       
+
 └── README.md
